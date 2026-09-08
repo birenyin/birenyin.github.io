@@ -2,7 +2,7 @@ export type Language = 'zh' | 'en';
 export type BilingualText = Record<Language, string>;
 
 export const profile = {
-  name: { zh: '尹积余', en: 'Jiyu Yin' },
+  name: { zh: 'birenyin', en: 'Jiyu Yin' },
   email: 'birenyin@gmail.com',
   github: 'https://github.com/birenyin',
   bio: {
@@ -34,7 +34,7 @@ export const profile = {
   publications: [
     {
       title: { zh: '基于事件语义学的开放域无监督事件抽取', en: 'Unsupervised Open Domain Event Extraction Based on Event Semantics' },
-      authors: { zh: '尹积余、许晶晶、王兆阳、王华珍、周浩', en: 'Jiyu Yin, Jingjing Xu, Zhaoyang Wang, Huazhen Wang, Hao Zhou' },
+      authors: { zh: 'birenyin、许晶晶、王兆阳、王华珍、周浩', en: 'Jiyu Yin, Jingjing Xu, Zhaoyang Wang, Huazhen Wang, Hao Zhou' },
       venue: { zh: '华侨大学学报（自然科学版）', en: 'Journal of Huaqiao University (Natural Science)' },
       status: 'accepted', year: '2026', firstAuthor: true,
       doi: 'https://doi.org/10.11830/ISSN.1000-5013.202510064',
@@ -48,7 +48,7 @@ export const profile = {
     },
     {
       title: { zh: '基于知识图谱多层次评估策略的护理序贯决策方法', en: 'Multi-level Evaluation Strategy of Knowledge Graph for Nursing Sequential Decision' },
-      authors: { zh: '尹积余、方昱龙、杨盛兰、吴谨准、尤海滨、陈坚、王华珍', en: 'Jiyu Yin et al.' },
+      authors: { zh: 'birenyin、方昱龙、杨盛兰、吴谨准、尤海滨、陈坚、王华珍', en: 'Jiyu Yin et al.' },
       venue: { zh: '中国数字医学 · 20(6): 103–110', en: 'China Digital Medicine · 20(6): 103–110' },
       status: 'published', year: '2025', firstAuthor: true,
       doi: 'https://doi.org/10.3969/j.issn.1673-7571.2025.06.017',
@@ -77,15 +77,15 @@ export const profile = {
 
 export const labels = {
   zh: {
-    skip: '跳转到正文', home: '尹积余的个人主页', nav: '主要导航', about: '关于', research: '研究', publications: '论文', projects: '项目', contact: '联系',
+    skip: '跳转到正文', home: 'birenyin的个人主页', nav: '主要导航', about: '关于', research: '研究', publications: '论文', projects: '项目', contact: '联系',
     subtitle: '厦门大学 · 博士研究生', romanName: 'Jiyu Yin', contactMe: '联系我', education: '教育经历', researchTitle: '研究方向', publicationTitle: '论文成果', awardTitle: '荣誉与奖励', projectsTitle: '开源项目',
     published: '已发表', accepted: '已录用', firstAuthor: '第一作者', paperLink: '论文链接', allProjects: '全部 GitHub 仓库', contactTitle: '保持联系', contactText: '欢迎通过邮件与我交流研究和项目。', backTop: '回到顶部',
     language: 'Switch to English', logo: '余与鱼融合的个人标识', logoMeaning: '以鱼写余，寓意有余与从容。', subjectTags: ['自然语言处理', '知识图谱', '医学人工智能'],
-    heroKicker: '探索语言、知识与智能', identityCaption: '厦门大学 · 博士研究生', portrait: '尹积余的个人照片', switchLabel: 'English', researchKicker: '研究兴趣', publicationKicker: '学术成果', awardKicker: '荣誉与奖励', projectKicker: '开源与实践', contactKicker: '交流与合作', educationKicker: '求学经历',
+    heroKicker: '探索语言、知识与智能', identityCaption: '厦门大学 · 博士研究生', portrait: 'birenyin的个人照片', switchLabel: 'English', researchKicker: '研究兴趣', publicationKicker: '学术成果', awardKicker: '荣誉与奖励', projectKicker: '开源与实践', contactKicker: '交流与合作', educationKicker: '求学经历',
   },
   en: {
     skip: 'Skip to content', home: 'Jiyu Yin’s personal homepage', nav: 'Main navigation', about: 'About', research: 'Research', publications: 'Publications', projects: 'Projects', contact: 'Contact',
-    subtitle: 'PhD candidate · Xiamen University', romanName: '尹积余', contactMe: 'Email me', education: 'Education', researchTitle: 'Research interests', publicationTitle: 'Publications', awardTitle: 'Selected honors', projectsTitle: 'Open-source projects',
+    subtitle: 'PhD candidate · Xiamen University', romanName: 'birenyin', contactMe: 'Email me', education: 'Education', researchTitle: 'Research interests', publicationTitle: 'Publications', awardTitle: 'Selected honors', projectsTitle: 'Open-source projects',
     published: 'Published', accepted: 'Accepted', firstAuthor: 'First author', paperLink: 'View paper', allProjects: 'All GitHub repositories', contactTitle: 'Get in touch', contactText: 'Feel free to reach out about research and projects.', backTop: 'Back to top',
     language: '切换到中文', logo: 'Personal emblem combining a fish and the Chinese character 余', logoMeaning: 'A fish-shaped 余: a symbol of abundance and composure.', subjectTags: ['Natural language processing', 'Knowledge graphs', 'Medical AI'],
     heroKicker: 'Exploring language, knowledge & intelligence', identityCaption: 'PhD candidate · Xiamen University', portrait: 'Portrait of Jiyu Yin', switchLabel: '中文', researchKicker: 'Research interests', publicationKicker: 'Academic work', awardKicker: 'Recognition', projectKicker: 'Open source & practice', contactKicker: 'Connect & collaborate', educationKicker: 'Academic journey',

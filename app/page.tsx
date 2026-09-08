@@ -27,7 +27,7 @@ export default function Home() {
 
   useEffect(() => {
     document.documentElement.lang = language === 'zh' ? 'zh-CN' : 'en';
-    document.title = language === 'zh' ? '尹积余 | 厦门大学 · 个人主页' : 'Jiyu Yin | Xiamen University';
+    document.title = language === 'zh' ? 'birenyin | 厦门大学 · 个人主页' : 'Jiyu Yin | Xiamen University';
     document.querySelector('meta[name="description"]')?.setAttribute('content', profile.bio[language]);
   }, [language]);
 
@@ -59,7 +59,7 @@ export default function Home() {
         </div>
         <div className="intro-copy">
           <p className="eyebrow"><span className="accent-line" /> {t.heroKicker}</p>
-          <h1 id="profile-heading" className={language === 'zh' ? 'name-zh' : 'name-en'}>{profile.name[language]}<span>.</span></h1>
+          <h1 id="profile-heading" className="name-en">{profile.name[language]}<span>.</span></h1>
           <p className="academic-title">{t.subtitle}</p>
           <p className="intro-description">{profile.bio[language]}</p>
           <ul className="interest-tags" aria-label={t.researchTitle}>{t.subjectTags.map(tag => <li key={tag}>{tag}</li>)}</ul>
@@ -79,7 +79,7 @@ export default function Home() {
           <div className="publication-content">
             <div className="paper-meta"><span className={`status status-${paper.status}`}>{paper.status === 'accepted' ? t.accepted : t.published}</span>{paper.firstAuthor && <span>{t.firstAuthor}</span>}</div>
             <h3><a href={paper.doi}>{paper.title[language]}<ArrowUpRight size={20} aria-hidden="true" /></a></h3>
-            <p className="paper-authors">{paper.authors[language].split(/(尹积余|Jiyu Yin)/).map((part, n) => part === '尹积余' || part === 'Jiyu Yin' ? <strong key={n}>{part}</strong> : part)}</p>
+            <p className="paper-authors">{paper.authors[language].split(/(birenyin|Jiyu Yin)/).map((part, n) => part === 'birenyin' || part === 'Jiyu Yin' ? <strong key={n}>{part}</strong> : part)}</p>
             <p className="paper-venue">{paper.venue[language]}</p>
           </div>
         </article>)}</div>
