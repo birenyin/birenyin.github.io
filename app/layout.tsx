@@ -6,8 +6,11 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://birenyin.github.io'),
   alternates: { canonical: '/' },
   icons: {
-    icon: [{ url: '/favicon-64.png', type: 'image/png', sizes: '64x64' }],
-    apple: [{ url: '/apple-touch-icon.png', sizes: '180x180' }],
+    icon: [
+      { url: '/favicon-v2-32.png', type: 'image/png', sizes: '32x32' },
+      { url: '/favicon-v2-64.png', type: 'image/png', sizes: '64x64' },
+    ],
+    apple: [{ url: '/apple-touch-icon-v2.png', sizes: '180x180' }],
   },
 };
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

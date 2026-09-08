@@ -80,14 +80,14 @@ export const labels = {
     skip: '跳转到正文', home: 'birenyin的个人主页', nav: '主要导航', about: '关于', research: '研究', publications: '论文', projects: '项目', contact: '联系',
     subtitle: '厦门大学 · 博士研究生', romanName: 'Jiyu Yin', contactMe: '联系我', education: '教育经历', researchTitle: '研究方向', publicationTitle: '论文成果', awardTitle: '荣誉与奖励', projectsTitle: '开源项目',
     published: '已发表', accepted: '已录用', firstAuthor: '第一作者', paperLink: '论文链接', allProjects: '全部 GitHub 仓库', contactTitle: '保持联系', contactText: '欢迎通过邮件与我交流研究和项目。', backTop: '回到顶部',
-    language: 'Switch to English', logo: '余与鱼融合的个人标识', logoMeaning: '以鱼写余，寓意有余与从容。', subjectTags: ['自然语言处理', '知识图谱', '医学人工智能'],
+    language: 'Switch to English', logo: '融合鱼、书页与水纹的个人徽记', logoMeaning: '鱼游知海，学有余地。', subjectTags: ['自然语言处理', '知识图谱', '医学人工智能'],
     heroKicker: '探索语言、知识与智能', identityCaption: '厦门大学 · 博士研究生', portrait: 'birenyin的个人照片', switchLabel: 'English', researchKicker: '研究兴趣', publicationKicker: '学术成果', awardKicker: '荣誉与奖励', projectKicker: '开源与实践', contactKicker: '交流与合作', educationKicker: '求学经历',
   },
   en: {
     skip: 'Skip to content', home: 'Jiyu Yin’s personal homepage', nav: 'Main navigation', about: 'About', research: 'Research', publications: 'Publications', projects: 'Projects', contact: 'Contact',
     subtitle: 'PhD candidate · Xiamen University', romanName: 'birenyin', contactMe: 'Email me', education: 'Education', researchTitle: 'Research interests', publicationTitle: 'Publications', awardTitle: 'Selected honors', projectsTitle: 'Open-source projects',
     published: 'Published', accepted: 'Accepted', firstAuthor: 'First author', paperLink: 'View paper', allProjects: 'All GitHub repositories', contactTitle: 'Get in touch', contactText: 'Feel free to reach out about research and projects.', backTop: 'Back to top',
-    language: '切换到中文', logo: 'Personal emblem combining a fish and the Chinese character 余', logoMeaning: 'A fish-shaped 余: a symbol of abundance and composure.', subjectTags: ['Natural language processing', 'Knowledge graphs', 'Medical AI'],
+    language: '切换到中文', logo: 'Personal emblem combining a fish, book pages, and flowing water', logoMeaning: 'A fish in the sea of knowledge, with room to grow.', subjectTags: ['Natural language processing', 'Knowledge graphs', 'Medical AI'],
     heroKicker: 'Exploring language, knowledge & intelligence', identityCaption: 'PhD candidate · Xiamen University', portrait: 'Portrait of Jiyu Yin', switchLabel: '中文', researchKicker: 'Research interests', publicationKicker: 'Academic work', awardKicker: 'Recognition', projectKicker: 'Open source & practice', contactKicker: 'Connect & collaborate', educationKicker: 'Academic journey',
   },
 };

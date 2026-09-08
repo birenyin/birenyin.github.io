@@ -45,7 +45,7 @@ export default function Home() {
     <a className="skip-link" href="#main">{t.skip}</a>
     <header className="site-header">
       <div className="header-inner wrap">
-        <a className="wordmark" href="#main" aria-label={t.home}><img src="/yu-fish-emblem.webp" alt="" width={38} height={38} /><span>{profile.name[language]}<i>.</i></span></a>
+        <a className="wordmark" href="#main" aria-label={t.home}><img src="/yu-knowledge-emblem-v2.webp" alt="" width={38} height={38} /><span>{profile.name[language]}<i>.</i></span></a>
         <nav aria-label={t.nav}><a href="#about">{t.about}</a><a href="#research">{t.research}</a><a href="#publications">{t.publications}</a><a href="#projects">{t.projects}</a><a href="#contact">{t.contact}</a></nav>
         <Button variant="ghost" className="language-button" aria-label={t.language} onClick={toggleLanguage}><Languages size={17} aria-hidden="true" /><span lang={language === 'zh' ? 'en' : 'zh-CN'}>{t.switchLabel}</span></Button>
       </div>
@@ -53,7 +53,7 @@ export default function Home() {
     <main id="main" className="wrap" lang={language === 'zh' ? 'zh-CN' : 'en'}>
       <section id="about" className="intro" aria-labelledby="profile-heading">
         <div className="identity-visual">
-          <div className="portrait-frame"><img className="portrait" src="/portrait.jpg" alt={t.portrait} width={303} height={433} fetchPriority="high" /></div>
+          <div className="portrait-frame"><img className="portrait" src="/portrait-personal-v2.jpg" alt={t.portrait} width={960} height={1282} fetchPriority="high" /></div>
           <div className="identity-badge"><GraduationCap size={18} aria-hidden="true" /><span>{language === 'zh' ? '厦门大学' : 'Xiamen University'}</span></div>
           <div className="identity-caption"><span className="live-dot" /> {language === 'zh' ? '博士研究生' : 'PhD candidate'}</div>
         </div>
@@ -95,7 +95,7 @@ export default function Home() {
         <div className="project-list">{profile.projects.map((project, index) => <article className="project" key={project.name}><div className="project-top"><Code2 size={24} aria-hidden="true" /><span aria-hidden="true">0{index + 1}</span></div><h3><a href={project.url}>{project.name}<ArrowUpRight size={22} aria-hidden="true" /></a></h3><p className="project-description">{project.description[language]}</p><ul className="project-tags" aria-label={project.name}>{project.tags[language].map(tag => <li key={tag}>{tag}</li>)}</ul></article>)}</div>
       </section>
 
-      <section id="contact" className="contact" aria-labelledby="contact-heading"><div><p className="eyebrow">{t.contactKicker}</p><h2 id="contact-heading">{t.contactTitle}<span>.</span></h2><p className="contact-description">{t.contactText}</p><a className="email-link" href={`mailto:${profile.email}`}>{profile.email}<ArrowUpRight size={22} aria-hidden="true" /></a></div><figure className="logo-signature"><img src="/yu-fish-emblem.webp" alt={t.logo} width={110} height={110} loading="lazy" /><figcaption>{t.logoMeaning}</figcaption></figure></section>
+      <section id="contact" className="contact" aria-labelledby="contact-heading"><div><p className="eyebrow">{t.contactKicker}</p><h2 id="contact-heading">{t.contactTitle}<span>.</span></h2><p className="contact-description">{t.contactText}</p><a className="email-link" href={`mailto:${profile.email}`}>{profile.email}<ArrowUpRight size={22} aria-hidden="true" /></a></div><figure className="logo-signature"><img src="/yu-knowledge-emblem-v2.webp" alt={t.logo} width={110} height={110} loading="lazy" /><figcaption>{t.logoMeaning}</figcaption></figure></section>
     </main>
     <footer className="site-footer wrap"><span>© {new Date().getFullYear()} {profile.name[language]}</span><a href={profile.github}>GitHub<ArrowUpRight size={14} aria-hidden="true" /></a><a href="#main">{t.backTop}<ArrowDown className="up-arrow" size={14} aria-hidden="true" /></a></footer>
   </>;
