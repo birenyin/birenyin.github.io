@@ -6,7 +6,7 @@ import { Button } from '../components/ui/button';
 import { labels, profile, type Language } from '../lib/profile';
 
 export default function Home() {
-  const [language, setLanguage] = useState<Language>('zh');
+  const [language, setLanguage] = useState<Language>('en');
   const t = labels[language];
 
   useEffect(() => {

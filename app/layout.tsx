@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import './globals.css';
 export const metadata: Metadata = {
-  title: 'birenyin | 厦门大学 · 个人主页',
-  description: 'birenyin（Jiyu Yin），厦门大学博士研究生。研究兴趣包括自然语言处理、知识图谱与医学人工智能。',
+  title: 'Jiyu Yin | Xiamen University',
+  description: 'Jiyu Yin (birenyin), PhD candidate at Xiamen University. Research interests include natural language processing, knowledge graphs, and medical AI.',
   metadataBase: new URL('https://birenyin.github.io'),
   alternates: { canonical: '/' },
   icons: {
@@ -14,5 +14,5 @@ export const metadata: Metadata = {
   },
 };
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="zh-CN"><body>{children}</body></html>;
+  return <html lang="en"><body>{children}</body></html>;
 }
